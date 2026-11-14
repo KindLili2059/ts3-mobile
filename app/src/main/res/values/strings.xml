@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TS3 Mobile</string>
+
+    <!-- 连接页 -->
+    <string name="connect_title">连接服务器</string>
+    <string name="connect_server_name">服务器名称（可选）</string>
+    <string name="connect_host">服务器地址（IP 或域名）</string>
+    <string name="connect_port">端口</string>
+    <string name="connect_nickname">昵称</string>
+    <string name="connect_server_password">服务器密码（可选）</string>
+    <string name="connect_save">保存到书签</string>
+    <string name="connect_save_password">保存服务器密码</string>
+    <string name="connect_action">连接</string>
+    <string name="connect_saved_servers">已保存的服务器</string>
+    <string name="connect_empty">暂无保存的服务器</string>
+    <string name="connect_delete">删除</string>
+    <string name="connect_connecting">正在连接…</string>
+    <string name="connect_reconnecting">正在重连…</string>
+    <string name="connect_disconnect">断开连接</string>
+
+    <!-- 频道页 -->
+    <string name="channel_title">频道</string>
+    <string name="channel_users">用户</string>
+    <string name="channel_join">加入</string>
+    <string name="channel_leave">离开频道</string>
+    <string name="channel_password_prompt">请输入频道密码</string>
+    <string name="channel_password_ok">确定</string>
+    <string name="channel_password_cancel">取消</string>
+    <string name="channel_current_badge">当前</string>
+    <string name="channel_users_online">%1$d 人在线</string>
+
+    <!-- 语音控制 -->
+    <string name="voice_ptt">按住说话</string>
+    <string name="voice_mic_mute">麦克风已静音</string>
+    <string name="voice_mic_unmute">麦克风</string>
+    <string name="voice_speaker_mute">扬声器已静音</string>
+    <string name="voice_speaker_unmute">扬声器</string>
+    <string name="voice_talking">正在说话</string>
+
+    <!-- 连接状态 -->
+    <string name="status_disconnected">未连接</string>
+    <string name="status_connecting">连接中</string>
+    <string name="status_connected">已连接</string>
+    <string name="status_establishing">建立中</string>
+    <string name="status_established">已就绪</string>
+
+    <!-- 通知 -->
+    <string name="notification_channel_name">语音会话</string>
+    <string name="notification_title">TS3 Mobile 正在运行</string>
+    <string name="notification_text">语音会话进行中</string>
+
+    <!-- 权限 -->
+    <string name="permission_mic_rationale">需要麦克风权限才能进行语音通话</string>
+    <string name="permission_notification_rationale">需要通知权限才能在前台保持语音会话</string>
+</resources>

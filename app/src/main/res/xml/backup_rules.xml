@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- 敏感数据（身份、密码）不参与云备份 -->
+    <exclude domain="file" path="secure/" />
+    <exclude domain="sharedpref" path="secure_prefs.xml" />
+</full-backup-content>
